@@ -1,179 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.1.9" hassounds="0" apprev="20995" start="node6">
+<tour apprev="20995" hassounds="0" start="node6" appversion="7.1.9">
   <panorama id="node6">
-    <input levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" width="2048" height="2048" levelbiashidpi="1.000" overlap="1">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input width="2048" height="2048" levelbias="0.400" levelingpitch="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0">
+      <level width="2048" preload="0" height="2048" predecode="0"/>
+      <level width="1024" preload="0" height="1024" predecode="0"/>
+      <level width="512" preload="0" height="512" predecode="0"/>
+      <level width="256" preload="1" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="-92.0027">
-      <start pan="-30" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fov="140" fovfisheye="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <start fov="100" projection="4" tilt="0" pan="-30"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" tilt="90" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata comment="1" heading="-92.0027" altitude="-3048.00" customnodeid="" author="dwp Team" description="Entrance" latitude="" tags="VIP" nodeid="node6" info="" longitude="" title="VIP - Entrance" copyright="dwp" source="" datetime="">
-      <mapcoords y_floorplan_percent="81.5303" x_floorplan_percent="67.8112" x="0.86792" y="-1.69739" mapid="VIPRoom"/>
+    <userdata info="" heading="-92.0027" longitude="" tags="VIP" source="" title="VIP - Entrance" altitude="-3048.00" datetime="" nodeid="node6" copyright="dwp" description="Entrance" author="dwp Team" comment="1" latitude="" customnodeid="">
+      <mapcoords x="0.86792" x_floorplan_percent="67.8112" mapid="VIPRoom" y="-1.69739" y_floorplan_percent="81.5303"/>
     </userdata>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textalpha="1" background="1" enabled="1" width="180" height="20" borderalpha="1" border="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-82.95" description="" id="Point02" target="" skinid="ht_node" tilt="-24.55" url="{node8}" title="VIP Lounge"/>
-      <hotspot pan="-100.83" description="" id="Point03" target="" skinid="ht_node" tilt="-14.91" url="{node9}" title="VIP Seating"/>
+    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+      <label width="180" background="1" borderradius="1" border="1" height="20" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1"/>
+      <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-24.55" id="Point02" target="" url="{node8}" skinid="ht_node" description="" pan="-82.95" title="VIP Lounge"/>
+      <hotspot tilt="-14.91" id="Point03" target="" url="{node9}" skinid="ht_node" description="" pan="-100.83" title="VIP Seating"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" type="crossdissolve" delay="none" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" enabled="1" zoomoutpause="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" invertwheel="0" hideabout="0" invertcontrol="1" contextvr="1" sensitivity="8" rubberband="0" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" contextfullscreen="1" simulatemass="1"/>
+    <transition zoomafteroutfov="40" zoomafterinfov="140" zoomin="0" blendcolor="0x000000" zoomfov="40" enabled="1" zoomspeed="2" blendtime="1" type="crossdissolve" delay="none" zoomoutpause="1" softedge="0" zoomout="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextvr="1" invertwheel="0" lockedmouse="0" hideabout="0" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" width="2048" height="2048" levelbiashidpi="1.000" overlap="1">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input width="2048" height="2048" levelbias="0.400" levelingpitch="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0">
+      <level width="2048" preload="0" height="2048" predecode="0"/>
+      <level width="1024" preload="0" height="1024" predecode="0"/>
+      <level width="512" preload="0" height="512" predecode="0"/>
+      <level width="256" preload="1" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="-111.203">
-      <start pan="10" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fov="140" fovfisheye="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <start fov="100" projection="4" tilt="0" pan="10"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" tilt="90" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata comment="1" heading="-111.203" altitude="-3048.00" customnodeid="" author="dwp team" description="Lounge" latitude="" tags="VIP" nodeid="node8" info="" longitude="" title="VIP Lounge" copyright="dwp" source="" datetime="">
-      <mapcoords y_floorplan_percent="54.3536" x_floorplan_percent="51.073" x="0.653687" y="-1.13159" mapid="VIPRoom"/>
+    <userdata info="" heading="-111.203" longitude="" tags="VIP" source="" title="VIP Lounge" altitude="-3048.00" datetime="" nodeid="node8" copyright="dwp" description="Lounge" author="dwp team" comment="1" latitude="" customnodeid="">
+      <mapcoords x="0.653687" x_floorplan_percent="51.073" mapid="VIPRoom" y="-1.13159" y_floorplan_percent="54.3536"/>
     </userdata>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textalpha="1" background="1" enabled="1" width="180" height="20" borderalpha="1" border="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-280.9" description="" id="Point01" target="" skinid="ht_node" tilt="-24.55" url="{node6}" title="VIP - Entrance"/>
-      <hotspot pan="-142.1" description="" id="Point03" target="" skinid="ht_node" tilt="-21.59" url="{node9}" title="VIP Seating"/>
+    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+      <label width="180" background="1" borderradius="1" border="1" height="20" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1"/>
+      <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-24.55" id="Point01" target="" url="{node6}" skinid="ht_node" description="" pan="-280.9" title="VIP - Entrance"/>
+      <hotspot tilt="-21.59" id="Point03" target="" url="{node9}" skinid="ht_node" description="" pan="-142.1" title="VIP Seating"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" type="crossdissolve" delay="none" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" enabled="1" zoomoutpause="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" invertwheel="0" hideabout="0" invertcontrol="1" contextvr="1" sensitivity="8" rubberband="0" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" contextfullscreen="1" simulatemass="1"/>
+    <transition zoomafteroutfov="40" zoomafterinfov="140" zoomin="0" blendcolor="0x000000" zoomfov="40" enabled="1" zoomspeed="2" blendtime="1" type="crossdissolve" delay="none" zoomoutpause="1" softedge="0" zoomout="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextvr="1" invertwheel="0" lockedmouse="0" hideabout="0" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node9">
-    <input levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" width="2048" height="2048" levelbiashidpi="1.000" overlap="1">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input width="2048" height="2048" levelbias="0.400" levelingpitch="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0">
+      <level width="2048" preload="0" height="2048" predecode="0"/>
+      <level width="1024" preload="0" height="1024" predecode="0"/>
+      <level width="512" preload="0" height="512" predecode="0"/>
+      <level width="256" preload="1" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="-123.899">
-      <start pan="10" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fov="140" fovfisheye="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <start fov="100" projection="4" tilt="0" pan="10"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" tilt="90" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata comment="1" heading="-123.899" altitude="-3048.00" customnodeid="" author="dwp team" description="Seating" latitude="" tags="VIP" nodeid="node9" info="" longitude="" title="VIP Seating" copyright="dwp" source="" datetime="">
-      <mapcoords y_floorplan_percent="34.0369" x_floorplan_percent="72.9614" x="0.933838" y="-0.708618" mapid="VIPRoom"/>
+    <userdata info="" heading="-123.899" longitude="" tags="VIP" source="" title="VIP Seating" altitude="-3048.00" datetime="" nodeid="node9" copyright="dwp" description="Seating" author="dwp team" comment="1" latitude="" customnodeid="">
+      <mapcoords x="0.933838" x_floorplan_percent="72.9614" mapid="VIPRoom" y="-0.708618" y_floorplan_percent="34.0369"/>
     </userdata>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textalpha="1" background="1" enabled="1" width="180" height="20" borderalpha="1" border="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-311.72" description="" id="Point01" target="" skinid="ht_node" tilt="-11.54" url="{node6}" title="VIP - Entrance"/>
-      <hotspot pan="-325.29" description="" id="Point03" target="" skinid="ht_node" tilt="-25.48" url="{node8}" title="VIP Lounge"/>
+    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+      <label width="180" background="1" borderradius="1" border="1" height="20" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1"/>
+      <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-11.54" id="Point01" target="" url="{node6}" skinid="ht_node" description="" pan="-311.72" title="VIP - Entrance"/>
+      <hotspot tilt="-25.48" id="Point03" target="" url="{node8}" skinid="ht_node" description="" pan="-325.29" title="VIP Lounge"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" type="crossdissolve" delay="none" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" enabled="1" zoomoutpause="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" invertwheel="0" hideabout="0" invertcontrol="1" contextvr="1" sensitivity="8" rubberband="0" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" contextfullscreen="1" simulatemass="1"/>
+    <transition zoomafteroutfov="40" zoomafterinfov="140" zoomin="0" blendcolor="0x000000" zoomfov="40" enabled="1" zoomspeed="2" blendtime="1" type="crossdissolve" delay="none" zoomoutpause="1" softedge="0" zoomout="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextvr="1" invertwheel="0" lockedmouse="0" hideabout="0" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" width="2048" height="2048" levelbiashidpi="1.000" overlap="1">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input width="2048" height="2048" levelbias="0.400" levelingpitch="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0">
+      <level width="2048" preload="0" height="2048" predecode="0"/>
+      <level width="1024" preload="0" height="1024" predecode="0"/>
+      <level width="512" preload="0" height="512" predecode="0"/>
+      <level width="256" preload="1" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="56.5803">
-      <start pan="-120" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fov="140" fovfisheye="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <start fov="100" projection="4" tilt="0" pan="-120"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" tilt="90" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata comment="" heading="56.5803" altitude="-3048.00" customnodeid="" author="dwp team " description="Entrance" latitude="" tags="DressingRoom" nodeid="node4" info="" longitude="" title="Dressing Room - Entrance" copyright="dwp" source="" datetime="">
-      <mapcoords y_floorplan_percent="20.4225" x_floorplan_percent="27.1845" x="0.307617" y="-0.318604" mapid="HeadLRRoom"/>
+    <userdata info="" heading="56.5803" longitude="" tags="DressingRoom" source="" title="Dressing Room - Entrance" altitude="-3048.00" datetime="" nodeid="node4" copyright="dwp" description="Entrance" author="dwp team " comment="" latitude="" customnodeid="">
+      <mapcoords x="0.395508" x_floorplan_percent="34.9515" mapid="HeadLRRoom" y="-0.318604" y_floorplan_percent="20.4225"/>
     </userdata>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textalpha="1" background="1" enabled="1" width="180" height="20" borderalpha="1" border="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-100.88" description="" id="Point01" target="" skinid="ht_node" tilt="-42.76" url="{node5}" title="Dressing Room - Lounge"/>
-      <hotspot pan="-106.15" description="" id="Point02" target="" skinid="ht_node" tilt="-17.17" url="{node3}" title="Dressing Room - Changing"/>
+    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+      <label width="180" background="1" borderradius="1" border="1" height="20" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1"/>
+      <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-42.76" id="Point01" target="" url="{node5}" skinid="ht_node" description="" pan="-100.88" title="Dressing Room - Lounge"/>
+      <hotspot tilt="-17.17" id="Point02" target="" url="{node3}" skinid="ht_node" description="" pan="-106.15" title="Dressing Room - Changing"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" type="crossdissolve" delay="none" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" enabled="1" zoomoutpause="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" invertwheel="0" hideabout="0" invertcontrol="1" contextvr="1" sensitivity="8" rubberband="0" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" contextfullscreen="1" simulatemass="1"/>
+    <transition zoomafteroutfov="40" zoomafterinfov="140" zoomin="0" blendcolor="0x000000" zoomfov="40" enabled="1" zoomspeed="2" blendtime="1" type="crossdissolve" delay="none" zoomoutpause="1" softedge="0" zoomout="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextvr="1" invertwheel="0" lockedmouse="0" hideabout="0" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" width="2048" height="2048" levelbiashidpi="1.000" overlap="1">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input width="2048" height="2048" levelbias="0.400" levelingpitch="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0">
+      <level width="2048" preload="0" height="2048" predecode="0"/>
+      <level width="1024" preload="0" height="1024" predecode="0"/>
+      <level width="512" preload="0" height="512" predecode="0"/>
+      <level width="256" preload="1" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="-33.7209">
-      <start pan="140" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fov="140" fovfisheye="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <start fov="100" projection="4" tilt="0" pan="140"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" tilt="90" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata comment="" heading="-33.7209" altitude="-3048.00" customnodeid="" author="dwp team " description="Lounge" latitude="" tags="DressingRoom" nodeid="node5" info="" longitude="" title="Dressing Room - Lounge" copyright="" source="" datetime="dwp">
-      <mapcoords y_floorplan_percent="42.6056" x_floorplan_percent="50.4854" x="0.571289" y="-0.664673" mapid="HeadLRRoom"/>
+    <userdata info="" heading="-33.7209" longitude="" tags="DressingRoom" source="" title="Dressing Room - Lounge" altitude="-3048.00" datetime="dwp" nodeid="node5" copyright="" description="Lounge" author="dwp team " comment="" latitude="" customnodeid="">
+      <mapcoords x="0.571289" x_floorplan_percent="50.4854" mapid="HeadLRRoom" y="-0.664673" y_floorplan_percent="42.6056"/>
     </userdata>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textalpha="1" background="1" enabled="1" width="180" height="20" borderalpha="1" border="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-0.63" description="" id="Point01" target="" skinid="ht_node" tilt="-31.02" url="{node4}" title="Dressing Room - Entrance"/>
-      <hotspot pan="-194.17" description="" id="Point02" target="" skinid="ht_node" tilt="-31.84" url="{node3}" title="Dressing Room - Changing"/>
+    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+      <label width="180" background="1" borderradius="1" border="1" height="20" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1"/>
+      <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-31.02" id="Point01" target="" url="{node4}" skinid="ht_node" description="" pan="-0.63" title="Dressing Room - Entrance"/>
+      <hotspot tilt="-31.84" id="Point02" target="" url="{node3}" skinid="ht_node" description="" pan="-194.17" title="Dressing Room - Changing"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" type="crossdissolve" delay="none" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" enabled="1" zoomoutpause="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" invertwheel="0" hideabout="0" invertcontrol="1" contextvr="1" sensitivity="8" rubberband="0" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" contextfullscreen="1" simulatemass="1"/>
+    <transition zoomafteroutfov="40" zoomafterinfov="140" zoomin="0" blendcolor="0x000000" zoomfov="40" enabled="1" zoomspeed="2" blendtime="1" type="crossdissolve" delay="none" zoomoutpause="1" softedge="0" zoomout="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextvr="1" invertwheel="0" lockedmouse="0" hideabout="0" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelbias="0.400" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" width="2048" height="2048" levelbiashidpi="1.000" overlap="1">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input width="2048" height="2048" levelbias="0.400" levelingpitch="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0">
+      <level width="2048" preload="0" height="2048" predecode="0"/>
+      <level width="1024" preload="0" height="1024" predecode="0"/>
+      <level width="512" preload="0" height="512" predecode="0"/>
+      <level width="256" preload="1" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="103.238">
-      <start pan="-90" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max pan="360" fov="140" fovfisheye="360" fovstereographic="330" tilt="90" scaletofit="1"/>
+      <start fov="100" projection="4" tilt="0" pan="-90"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" tilt="90" fovstereographic="330" fovfisheye="360" pan="360" scaletofit="1"/>
     </view>
-    <userdata comment="" heading="103.238" altitude="-3048.00" customnodeid="" author="dwp team " description="Changing" latitude="" tags="DressingRoom" nodeid="node3" info="" longitude="" title="Dressing Room - Changing" copyright="" source="" datetime="dwp">
-      <mapcoords y_floorplan_percent="65.493" x_floorplan_percent="59.7087" x="0.675659" y="-1.02173" mapid="HeadLRRoom"/>
+    <userdata info="" heading="103.238" longitude="" tags="DressingRoom" source="" title="Dressing Room - Changing" altitude="-3048.00" datetime="dwp" nodeid="node3" copyright="" description="Changing" author="dwp team " comment="" latitude="" customnodeid="">
+      <mapcoords x="0.675659" x_floorplan_percent="59.7087" mapid="HeadLRRoom" y="-1.02173" y_floorplan_percent="65.493"/>
     </userdata>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textalpha="1" background="1" enabled="1" width="180" height="20" borderalpha="1" border="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-235.01" description="" id="Point02" target="" skinid="ht_node" tilt="-35.41" url="{node5}" title="Dressing Room - Lounge"/>
-      <hotspot pan="-239.66" description="" id="Point03" target="" skinid="ht_node" tilt="-16.49" url="{node4}" title="Dressing Room - Entrance"/>
+    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+      <label width="180" background="1" borderradius="1" border="1" height="20" borderalpha="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1" textalpha="1"/>
+      <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot tilt="-35.41" id="Point02" target="" url="{node5}" skinid="ht_node" description="" pan="-235.01" title="Dressing Room - Lounge"/>
+      <hotspot tilt="-16.49" id="Point03" target="" url="{node4}" skinid="ht_node" description="" pan="-239.66" title="Dressing Room - Entrance"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" type="crossdissolve" delay="none" zoomfov="40" blendtime="1" zoomafteroutfov="40" zoomspeed="2" zoomafterinfov="140" enabled="1" zoomoutpause="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
-    <animation clipsrandom="0" useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control lockedkeyboard="0" lockedwheel="0" invertwheel="0" hideabout="0" invertcontrol="1" contextvr="1" sensitivity="8" rubberband="0" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" contextfullscreen="1" simulatemass="1"/>
+    <transition zoomafteroutfov="40" zoomafterinfov="140" zoomin="0" blendcolor="0x000000" zoomfov="40" enabled="1" zoomspeed="2" blendtime="1" type="crossdissolve" delay="none" zoomoutpause="1" softedge="0" zoomout="0"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" contextvr="1" invertwheel="0" lockedmouse="0" hideabout="0" contextfullscreen="1" contextprojections="0" zoomcentercursor="1" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedwheel="0" dblclickfullscreen="0" invertcontrol="1"/>
   </panorama>
   <masternode>
-    <userdata comment="" author="dwp team" description="Bangkok Arena Bangna" tags="" title="Bangkok Arena Bangna" copyright="dwp"/>
+    <userdata copyright="dwp" description="Bangkok Arena Bangna" author="dwp team" tags="" comment="" title="Bangkok Arena Bangna"/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map bgcolor="rgba(255, 255, 255, 0)" crispedges="0" floorplannorth="0" id="VIPRoom" type="file" zoomlevels="1" width="233" height="379" title="VIP Room Floor Plan" index="0" transparent="1" tileformat="png"/>
-  <map bgcolor="rgba(255, 255, 255, 0)" crispedges="0" floorplannorth="0" id="HeadLRRoom" type="file" zoomlevels="1" width="206" height="284" title="Head LR Room" index="1" transparent="1" tileformat="png"/>
+  <map width="233" crispedges="0" tileformat="png" zoomlevels="1" height="379" title="VIP Room Floor Plan" index="0" type="file" id="VIPRoom" bgcolor="rgba(255, 255, 255, 0)" transparent="1" floorplannorth="0"/>
+  <map width="206" crispedges="0" tileformat="png" zoomlevels="1" height="284" title="Head LR Room" index="1" type="file" id="HeadLRRoom" bgcolor="rgba(255, 255, 255, 0)" transparent="1" floorplannorth="0"/>
 </tour>
